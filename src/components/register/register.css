@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'SF Compact Display';
+  src: local('SF Compact Display'),
+    url('../fonts/sf-compact-display-medium-5864711817c30.otf') format('opentype'),
+    url('../fonts/sf-compact-display-thin-58646eb43a785.otf') format('opentype');
+}
+
+.auth {
+  font-family: 'SF Compact Display' !important;
+  padding-top: 136px;
+  max-width: 374px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.auth__form {
+  margin-bottom: 5px;
+}
+.auth p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #939292;
+}
+.auth p a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  color: #20201f;
+  text-decoration: none;
+  transition: 0.3s;
+  padding-left: 13px;
+}
+.auth p a:hover {
+  color: #939292;
+}
+.password__opacity {
+  position: relative;
+}
+.password__opacity::after {
+  content: '';
+  width: 20px;
+  height: 14px;
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  top: 12px;
+  background: url('../image/Group.svg') no-repeat center;
+}
+.none {
+  position: relative;
+}
+.none::after {
+  content: '';
+  width: 20px;
+  height: 14px;
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  top: 12px;
+  background: url('../image/Group1.svg') no-repeat center;
+}
+
+.auth input {
+  padding: 9px 0;
+  margin-bottom: 35px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #dedede;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #939292;
+}
+.auth input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #939292;
+}
+.auth .invalid {
+  color: red;
+  border-bottom: 1px solid red;
+}
+
+.checkbox {
+  display: block;
+  position: relative;
+  padding-top: 2px;
+  padding-left: 29px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 33px;
+}
+
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  border: 1px solid #DEDEDE;
+  transition: .3s;
+}
+
+.checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkbox .checkmark:after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 11px;
+  height: 11px;
+  background: #1c1c1c;
+}

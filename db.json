@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "email": "test@mail.ru",
+      "password": "$2a$10$s8IFKcgAB7EJjhPeAde17ejHLUWJydFEoiWsX2nsLF3MhjPOcrBE2",
+      "id": 1
+    },
+    {
+      "email": "aneckogri@gmail.com",
+      "password": "$2a$10$CJjDXbLuKldSGrSI1g5rqOiTQPPIUJyxAbN4afTLS8DCWuQZDMrDK",
+      "name": "dsadasdas",
+      "username": "dsadasda",
+      "tel": "+7 097 433 490",
+      "id": 2
+    },
+    {
+      "email": "dsadasda@gmail.com",
+      "password": "$2a$10$YTXLDhUbT8.GDf/vNafpEeFPNVpztWYOfvVB.175WGpme6xoh51GS",
+      "name": "dsadasdasdasdas",
+      "username": "dasdasdas",
+      "tel": "+7 432 423 424",
+      "id": 3
+    },
+    {
+      "email": "adasdas@gfmail.com",
+      "password": "$2a$10$vvSeLQcQnprTJo5v1Z4tM.vKgW.Y8frhebmkN9h/k5b.1V0q64V6.",
+      "name": "dsadas",
+      "username": "dasdas",
+      "tel": "+7 432 432 42_",
+      "id": 4
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$xacBXNR/LwlZN./VAISiwOZbpREuhRp3oDhVcxreeec0cr3JC7yL2",
+      "name": "dsadasda",
+      "username": "dsadasdsa",
+      "tel": "+7 097 433 490",
+      "id": 5
+    },
+    {
+      "email": "test2@gmail.com",
+      "password": "$2a$10$lnGJqH3327nHe2a9RDkXVeyXa9XDxj0YmxVWgU4B8XQDHC1tw8oZC",
+      "tel": "+7 435 464 757",
+      "id": 6
+    }
+  ]
+}
