@@ -33,7 +33,7 @@ export const Login = () => {
             maxLength: 20,
             pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
           })}
-          className={errors?.email?.type === 'pattern' ? 'invalid' : undefined}
+          className={errors?.email?.type === 'pattern' ? 'invalid' : ''}
           placeholder="Email"
         />
         <div className="password">
@@ -46,7 +46,7 @@ export const Login = () => {
               maxLength: 20,
               pattern: /[a-z0-9A-Z]{8,16}/,
             })}
-            className={errors?.password?.type === 'pattern' ? 'invalid' : undefined}
+            className={errors?.password?.type === 'pattern' ? 'invalid' : ''}
             type={!opacity ? 'password' : 'text'}
             placeholder="Пароль"
           />

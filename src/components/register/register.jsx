@@ -35,7 +35,7 @@ export const Register = () => {
             maxLength: 20,
             pattern: /^[a-z0-9A-ZА-Яа-я]/,
           })}
-          className={errors?.name?.type === 'pattern' ? 'invalid' : undefined}
+          className={errors?.name?.type === 'pattern' ? 'invalid' : ''}
           placeholder="Имя"
         />
         <input
@@ -44,7 +44,7 @@ export const Register = () => {
             maxLength: 20,
             pattern: /^[a-z0-9A-Z]/,
           })}
-          className={errors?.username?.type === 'pattern' ? 'invalid' : undefined}
+          className={errors?.username?.type === 'pattern' ? 'invalid' : ''}
           placeholder="Никнейм"
         />
         <input
@@ -53,7 +53,7 @@ export const Register = () => {
             maxLength: 20,
             pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
           })}
-          className={errors?.email?.type === 'pattern' ? 'invalid' : undefined}
+          className={errors?.email?.type === 'pattern' ? 'invalid' : ''}
           placeholder="Email"
         />
         <InputMask
@@ -62,7 +62,7 @@ export const Register = () => {
             maxLength: 20,
           })}
           mask="+7 999 999 999"
-          className={errors?.tel?.type === 'pattern' ? 'invalid' : undefined}
+          className={errors?.tel?.type === 'pattern' ? 'invalid' : ''}
           type="tel"
           placeholder="Телефон"
         />
@@ -76,7 +76,7 @@ export const Register = () => {
               maxLength: 20,
               pattern: /[a-z0-9A-Z]{8,16}/,
             })}
-            className={errors?.password?.type === 'pattern' ? 'invalid' : undefined}
+            className={errors?.password?.type === 'pattern' ? 'invalid' : ''}
             type={!opacity ? 'password' : 'text'}
             placeholder="Пароль"
           />
